@@ -89,30 +89,6 @@ GITHUB_REPO_PIPELINE/
 └── README.md                      # Project documentation
 ```
 
-github-repo-pipeline/
-│
-├── extract/
-│   └── fetch_github_data.py        # Fetch data from GitHub API
-│
-├── transform/
-│   └── clean_transform.py          # Data cleaning & datetime normalization
-│
-├── load/
-│   ├── load_to_mysql.py            # Load data into MySQL
-│   └── test_connection.py          # MySQL connectivity test
-│
-├── sql/
-│   └── mysql_schema.sql            # Database & table creation script
-│
-├── logs/
-│   └── pipeline.log                # Pipeline execution logs
-│
-├── main.py                         # ETL orchestration
-├── requirements.txt                # Project dependencies
-└── README.md                       # Project documentation
-
-````
-
 ---
 
 ## 🔄 ETL Workflow
